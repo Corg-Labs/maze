@@ -2,3 +2,4 @@ maze
 *.test
 *.o
 *.dSYM
+*.recheck
