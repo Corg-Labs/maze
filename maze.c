@@ -1,3 +1,4 @@
+=== maze ===
 /*
  * maze.c - Animated maze generator + A* pathfinder in C
  *
@@ -247,3 +248,4 @@ int main(void) {
     }
     return 0;
 }
+
