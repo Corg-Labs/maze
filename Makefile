@@ -1,8 +1,9 @@
 CC     = gcc
-CFLAGS = -O2 -Wall
+CFLAGS = -O3 -Wall
+SDL    = $(shell sdl2-config --cflags --libs)
 
 maze: maze.c
-	$(CC) $(CFLAGS) maze.c -o maze
+	$(CC) $(CFLAGS) maze.c -o maze $(SDL)
 
 run: maze
 	./maze
